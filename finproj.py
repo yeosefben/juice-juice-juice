@@ -93,6 +93,41 @@ def delete_material():
 
 #5
 
+
+
+
+
+
+
+
+
+#6
+
+
+
+
+
+
+
+
+
+
+#7
+
+
+
+
+
+
+
+
+
+#8
+
+
+
+
+
  
 while True:
     print("\n=== Material Strength Calculator ===")
