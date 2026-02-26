@@ -27,7 +27,9 @@ def get_positive_number(prompt):
                 return value
         except ValueError:
             print("Error: Please enter a valid number.")
- 
+			
+#1
+
 def add_material():
     name = input("Material Name: ").strip()
  
@@ -44,7 +46,8 @@ def add_material():
         materials[name] = strength
         print("Material added successfully!")
  
- 
+#2
+
 def view_strongest_material():
     if not materials_table:
         print("No materials available.")
@@ -57,6 +60,8 @@ def view_strongest_material():
     except Exception as x:
         print("Error determining strongest material:", x)
         print("Current data:", materials_table)
+
+#3
  
 def update_material():
     name = input("Enter the material name to update: ").strip()
@@ -74,6 +79,7 @@ def update_material():
             strength = int(input("Enter tensile strength (MPa): "))
             materials[name] = strength
             print(f"{name} added successfully.")
+#4
  
 def delete_material():
     name = input("Enter the material to delete: ").strip()
@@ -84,6 +90,9 @@ def delete_material():
  
     else:
         print("Material not found.")
+
+#5
+
  
 while True:
     print("\n=== Material Strength Calculator ===")
